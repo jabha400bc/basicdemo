@@ -46,7 +46,7 @@ public class App {
     public static void main(String[] args) throws IOException{
         whoami();
         //listS3Buckets();
-        // putObject2S3Bucket();
+        putObject2S3Bucket();
     }
     private static void whoami(){
         Region region = Region.of(REGION);
